@@ -21,4 +21,22 @@ console.log(origin); // printing, place function name in the paranthesis
 console.log(gender); // printing, place function name in the paranthesis 
 console.log(coder); // printing, place function name in the paranthesis 
 
+//Displaying user input into html
+
+if(name){
+    document.getElementById('username').innerHTML = name;
+} 
+// Origin/Current City
+if(origin){
+    document.getElementById('usercity').innerHTML = origin;
+} 
+//user Gender
+if(gender){
+    document.getElementById('usergender').innerHTML = gender;
+} 
+//Is user a coder. True or false wil be displyed
+if(coder){
+    document.getElementById('userclass').innerHTML = coder;
+};
+
 
