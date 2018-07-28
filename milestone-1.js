@@ -23,20 +23,21 @@ console.log(coder); // printing, place function name in the paranthesis
 
 //Displaying user input into html
 
-if(name){
-    document.getElementById('username').innerHTML = name;
-} 
-// Origin/Current City
-if(origin){
-    document.getElementById('usercity').innerHTML = origin;
-} 
-//user Gender
-if(gender){
-    document.getElementById('usergender').innerHTML = gender;
-} 
-//Is user a coder. True or false wil be displyed
-if(coder){
-    document.getElementById('userclass').innerHTML = coder;
-};
+//get that holds a function that gets html tag by its id name(note in this case its empty)
+let elName = document.getElementById('username');
+elName.innerHTML = name; // Populate the empty space with user input from the form.
+
+//get that holds a function that gets html tag by its id name(note in this case its empty)
+let elOrigin = document.getElementById('usercity');
+elOrigin.innerHTML = origin;// Populate the empty space with user input from the form.
+
+//get that holds a function that gets html tag by its id name(note in this case its empty)
+let elGender = document.getElementById('usergender');
+elGender.innerHTML = gender;// Populate the empty space with user input from the form.
+
+//get that holds a function that gets html tag by its id name(note in this case its empty)
+let elCoder = document.getElementById('userclass');
+elCoder.innerHTML = coder;// Populate the empty space with user input from the form.
+
 
 
